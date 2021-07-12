@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23d2a1d2.chunk.css",
+    "main.js": "/static/js/main.9bf0089d.chunk.js",
+    "main.js.map": "/static/js/main.9bf0089d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
+    "static/js/2.c8e3c587.chunk.js": "/static/js/2.c8e3c587.chunk.js",
+    "static/js/2.c8e3c587.chunk.js.map": "/static/js/2.c8e3c587.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.23d2a1d2.chunk.css.map": "/static/css/main.23d2a1d2.chunk.css.map",
+    "static/js/2.c8e3c587.chunk.js.LICENSE.txt": "/static/js/2.c8e3c587.chunk.js.LICENSE.txt",
+    "static/media/Presentation1.8e074b81.pptx": "/static/media/Presentation1.8e074b81.pptx",
+    "static/media/App.css": "/static/media/conference.aa65ed57.jpg",
+    "static/media/face1.247a74f8.jpeg": "/static/media/face1.247a74f8.jpeg",
+    "static/media/face4.d63a0eed.jpg": "/static/media/face4.d63a0eed.jpg",
+    "static/media/temp2.d726192d.docx": "/static/media/temp2.d726192d.docx"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7545a8a1.js",
+    "static/js/2.c8e3c587.chunk.js",
+    "static/css/main.23d2a1d2.chunk.css",
+    "static/js/main.9bf0089d.chunk.js"
+  ]
+}
