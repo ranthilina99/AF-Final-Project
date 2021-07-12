@@ -9,7 +9,6 @@ import { createStore } from 'redux';
 
 //Umesh Routes
 import Login from "./pages/login/Login";
-const userData = createStore(Reducer);
 import UserPage from "./pages/user/user";
 import AdminPage from "./pages/admin/admin";
 import EditorPage from "./pages/editor/editor";
