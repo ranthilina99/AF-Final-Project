@@ -29,6 +29,7 @@
     "express-fileupload": "^1.2.1",
     "express-session": "^1.17.2",
     "express-validator": "^6.11.1",
+    "firebase": "^8.7.1",
     "googleapis": "^78.0.0",
     "history": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
