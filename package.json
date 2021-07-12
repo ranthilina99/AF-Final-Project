@@ -1,0 +1,52 @@
+{
+  "name": "af-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "test": "mocha --recursive **/test/runner1.js",
+    "testYas": "mocha --recursive **/test/runner.js",
+    "testSha": "mocha --recursive **/test/SalikaRunner.js",
+    "testBin": "mocha --recursive **/test/binukaRunner.js"
+  },
+  "author": "umesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "concurrently": "^6.2.0",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.11.1",
+    "googleapis": "^78.0.0",
+    "history": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.0.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.12",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "react-bootstrap": "^1.6.1",
+    "session-file-store": "^1.5.0",
+    "should": "^13.2.3",
+    "sweetalert2": "^11.0.18"
+  },
+  "devDependencies": {
+    "@coreui/icons-react": "^1.1.0",
+    "@coreui/react": "^3.4.6",
+    "cloudinary": "^1.26.1",
+    "dotenv": "^10.0.0",
+    "mocha-logger": "^1.0.7",
+    "multer": "^1.4.2"
+  }
+}
